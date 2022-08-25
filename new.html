@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            KEDAR ENTERPRISE
+        </title>     
+       
+       <style>
+
+            #t {
+                color : yellow;
+            }
+
+            #a {
+                color : red;
+
+            }
+            #b {
+                color : blue;
+
+            }
+            #c {
+                color : green;
+            }
+
+            .we{
+                font-size: 50px;
+            }
+
+            .mass{
+                font-size: 40px;
+            }
+
+            .study{
+                font-size: 30px;
+            }
+
+        </style> 
+
+    </head>
+
+    <body>
+        <h1 class = "we">
+            KEDAR PVT. LTD. 
+        </h1>
+
+        <p id="t" class ="mass"> OFFLINE PAYMENT </p>
+        <button> OFFLINE mode</button>
+         <button onclick="rupees()" > CLICK HERE TO PAY ONLINE  </button>
+         <script>
+            function rupees() {
+                document.getElementById("t").innerHTML ="DIGITAL PAYMENT"
+            }
+         </script>
+        <p id ="a" class = "study "> TOTAL COST </p>
+        <p id ="b" class = "study"> COMPANY VALUATION</p>
+        <p id ="c" class ="study"> TAX & REVENUE</p>
+
+        <button onclick = "newtext()"> Sign up</button>
+        <div> Login </div>
+        <script>
+ 
+            function newtext() {
+                document.getElementById("c").innerHTML = "TOTAL GST"
+            }
+
+        </script>
+
+    
+    </body>
+
+</html> 
